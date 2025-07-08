@@ -6,7 +6,6 @@ console.log(data);
 const App = () => {
     return (
         <>
-            <h1>Test</h1>
             <Widget data={data[0]}>
 
             </Widget>

@@ -4,11 +4,11 @@ import Header from "./Header";
 import HourlyForecast from "./HourlyForecast";
 const Widget = (props) => {
     const {city, current_temperature, state} = props.data;
-    console.log(city);
+    const {hourly} = props.data;
     return (
         <section className="widget__section">
             <Header city={city} temp={current_temperature} state={state}></Header>
-            <HourlyForecast/>
+            <HourlyForecast forecast={hourly}/>
         </section>
     )
 }
