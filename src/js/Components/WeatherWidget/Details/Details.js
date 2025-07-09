@@ -1,9 +1,9 @@
 import React from "react";
 
 import styles from "./Details.scss";
-import sunrise from "../../../assets/img/sunrise.svg";
-import sunset from "../../../assets/img/sunset.svg";
-import detailsImg from "../../../assets/img/details.svg";
+import sunrise from "../../../../assets/img/sunrise.svg";
+import sunset from "../../../../assets/img/sunset.svg";
+import detailsImg from "../../../../assets/img/details.svg";
 import DetailsData from "./DetailsData";
 
 const Details = (props) => {

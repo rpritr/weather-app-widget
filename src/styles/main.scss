@@ -1,9 +1,16 @@
+@use "./general/variables";
+
+
 html {
   background: black url("../assets/img/bg.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 body {
-  color: white;
-  font-family: "Sarabun", sans-serif;
+  color: variables.$primary;
+  font-family: variables.$font;
 }

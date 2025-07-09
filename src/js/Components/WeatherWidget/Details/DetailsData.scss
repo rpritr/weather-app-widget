@@ -1,0 +1,9 @@
+@use "../../../../styles/general/variables";
+.widget__details__data--item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .widget__details__data--title {
+    color: variables.$secondary;
+  }
+}
