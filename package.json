@@ -1,5 +1,6 @@
 {
   "name": "weather-app-widget",
+  "homepage": "https://rpritr.github.io/weather-app-widget",
   "version": "1.0.0",
   "description": "Weather App Widget",
   "main": "index.js",
@@ -13,6 +14,8 @@
   "scripts": {
     "start": "webpack serve",
     "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
