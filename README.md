@@ -39,3 +39,6 @@ Then open your browser and visit: http://localhost:3002
 ## Design 
 Design source:  [Figma design](https://www.figma.com/community/file/1075789736938367279/weather-app-widget)
 Thanks to the designer for sharing the concept!
+
+## Demo
+Visit: https://rpritr.github.io/weather-app-widget/
